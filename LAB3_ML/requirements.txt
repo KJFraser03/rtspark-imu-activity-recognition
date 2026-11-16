@@ -1,0 +1,4 @@
+pyserial
+paho-mqtt
+pandas
+scikit-learn
