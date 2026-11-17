@@ -17,3 +17,6 @@ An end-to-end embedded IoT and Machine Learning pipeline that streams live 6-axi
 [ml_model.py (Random Forest Classifier - 99.03% Accuracy)]
         ├──► Logs timestamped predictions to predictions_log.csv
         └──► Publishes activity state to MQTT topic: rtspark/predictions
+
+PROJECT LEADER AND DEVELOPER : KEN JHIM VILLANUEVA
+project collaborator : KHRISMYKHIELBUSA % JOSHUA ROCAMORA
