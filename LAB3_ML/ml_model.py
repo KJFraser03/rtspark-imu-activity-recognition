@@ -32,7 +32,7 @@ if not os.path.exists(log_file):
         writer.writerow(["timestamp", "ax", "ay", "az", "gx", "gy", "gz", "predicted_class", "activity_label"])
 
 # 4. Setup MQTT (Subscribe to sensors, Publish predictions)
-broker_address = "10.11.39.197"
+broker_address = "10.11.34.133"
 sub_topic = "rtspark/sensors"
 pub_topic = "rtspark/predictions"
 

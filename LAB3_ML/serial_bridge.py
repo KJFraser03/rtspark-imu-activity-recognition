@@ -2,9 +2,9 @@ import serial
 import paho.mqtt.client as mqtt
 import json
 
-COM_PORT = "COM11"  # <-- Change this to your RT-Spark's COM port
+COM_PORT = "COM12"  # <-- Change this to your RT-Spark's COM port
 BAUD_RATE = 115200
-BROKER_ADDRESS = "10.11.39.197"
+BROKER_ADDRESS = "10.11.34.133"
 TOPIC = "rtspark/sensors"
 
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
